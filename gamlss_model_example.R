@@ -55,9 +55,9 @@ summary(model)
 # define the position of the label for the percentiles
 label_perc <- centiles.pred(model, xvalues=max(training_data$x), xname= "x", cent = c(3, 10, 25, 50, 75, 90, 97))
 
-png("./reference_curves.png", 
-    width     = 3.25,
-    height    = 3.25,
+png("./reference_curves_example_1.png", 
+    width     = 4.5,
+    height    = 3.5,
     units     = "in",
     res       = 1200,
     pointsize = 5)
@@ -69,7 +69,7 @@ centiles(model,
          xlim = c(xlim1,xlim2),
          legend = FALSE,col=1,col.cent=1,
          cent = c(3, 10, 25, 50, 75, 90, 97),
-         lwd.cent=c(1,1,1,2,1,1,1),
+         lwd.cent=c(0.8,0.8,0.8,1.5,0.8,0.8,0.8),
          main=graph_title,
          xlab = "",
          ylab = "",
@@ -88,11 +88,11 @@ axis(1, at = seq(xlim1, xlim2, by=xsteps), labels = seq(xlim1, xlim2, by=xsteps)
 abline(h= seq(ylim1, ylim2, by=ysteps), v=seq(xlim1, xlim2, by=xsteps), col="gray", lty=3)
 
 axis(2, at = seq(ylim1, ylim2, by=ysteps), labels = seq(ylim1, ylim2, by=ysteps),tck = -0.01, cex.axis=1,las=2,mgp=c(0,0.4,0))
-text(max(training_data$x)+ 2, label_perc$C3, "P3")
-text(max(training_data$x)+ 2, label_perc$C10, "P10")
-text(max(training_data$x)+ 2, label_perc$C25, "P25")
-text(max(training_data$x)+ 2, label_perc$C50, "P50")
-text(max(training_data$x)+ 2, label_perc$C75, "P75")
-text(max(training_data$x)+ 2, label_perc$C90, "P90")
-text(max(training_data$x)+ 2, label_perc$C97, "P97")
+text(max(training_data$x)+ 2, label_perc$C3, "P3",cex=1)
+text(max(training_data$x)+ 2, label_perc$C10, "P10",cex=1)
+text(max(training_data$x)+ 2, label_perc$C25, "P25",cex=1)
+text(max(training_data$x)+ 2, label_perc$C50, "P50",cex=1)
+text(max(training_data$x)+ 2, label_perc$C75, "P75",cex=1)
+text(max(training_data$x)+ 2, label_perc$C90, "P90",cex=1)
+text(max(training_data$x)+ 2, label_perc$C97, "P97",cex=1)
 dev.off()
