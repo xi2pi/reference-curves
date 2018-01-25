@@ -6,7 +6,7 @@ This repository is dedicated to reference curves based on echocardiographic data
 # Motivation ❤️
 Following figure shows an example of reference curves:
 
-![Example reference curves](figures/ex_1_reference_curves.png)
+![Example reference curves](https://raw.githubusercontent.com/xi2pi/reference-curves/master/docs/figures/ex_1_reference_curves.png)
 
 
 The axes stand for two different variables. Usually, the age is chosen as x-axis and another variable of interest is chosen as y-axis. That can be the enddiastolic volume for example. Each shown data point stands for an individual subject that has been measured. In this example 610 observation were used.
