@@ -1,4 +1,4 @@
-# Reference curves
+﻿# Reference curves
 by Christian Winkler, M.Sc.
 
 This repository is dedicated to reference curves based on echocardiographic data for children. In case you want to develop references with your data or you want to understand how it works, this documentation and repository will help you by providing a lot of useful tools. Please note, that the presented methods can also be used for data other than echocardiographic.
@@ -6,7 +6,7 @@ This repository is dedicated to reference curves based on echocardiographic data
 # Motivation ❤️
 Following figure shows an example of reference curves:
 
-![Example reference curves](https://github.com/xi2pi/reference-curves/blob/master/reference_curves_example_1.png)
+![Example reference curves](/figures/ex_1_refrence_curves.png)
 
 The axes stand for two different variables. Usually, the age is chosen as x-axis and another variable of interest is chosen as y-axis. That can be the enddiastolic volume for example. Each shown data point stands for an individual subject that has been measured. In this example 610 observation were used.
 The different curves represent the percentiles of an underlying model. They are labeled as P3, P10, P25, P50, P75 and so on. 
