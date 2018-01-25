@@ -1,4 +1,3 @@
-
 # author: Christian Winkler, University Hospital Bonn
 # date:   19-01-2018
 
@@ -24,7 +23,7 @@ points_on = TRUE
 res_plot = 400
 
 # Choose a title and labels for the axes
-graph_title = "My example Data"
+graph_title = "Example - Reference Curves"
 
 x_label = "x axis"
 y_label = "y axis"
