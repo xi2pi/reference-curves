@@ -6,7 +6,7 @@ This repository is dedicated to reference curves based on echocardiographic data
 # Motivation ❤️
 Following figure shows an example of reference curves:
 
-![Example reference curves](reference-curves/docs/figures/ex_1_reference_curves.png)
+![Example reference curves](https://github.com/xi2pi/reference-curves/blob/master/docs/figures/ex_1_reference_curves.png)
 
 
 The axes stand for two different variables. Usually, the age is chosen as x-axis and another variable of interest is chosen as y-axis. That can be the enddiastolic volume for example. Each shown data point stands for an individual subject that has been measured. In this example 610 observation were used.
@@ -16,7 +16,7 @@ Accordingly, the 50th percentile indicates the median which seperates the data i
 These kind of figures have become a tool for all kinds of examinations because they can be used easily in order to assess measured data and classify the patient. 
 Many people know the growth charts or graphs for children. In literature, it is also common to use the term z-score instead of percentiles.
 
-Some examples from other fields:
+Some examples from diverse fields:
 
 [Classification of childhood weight (Wikipedia)](https://en.wikipedia.org/wiki/Classification_of_childhood_weight)
 
